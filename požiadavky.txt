@@ -8,7 +8,7 @@ OBSAH:
     3-4 podstránky		-In progress
     responzívny dizajn		-Done
     CSS grid			-Done
-    5 sémantických značiek	-To do! ???
+    5 sémantických značiek	-Done
     <p><div><span>		-Done
     zoznam  odrážkový		-Done
 		číslovaný		-Done
@@ -22,10 +22,10 @@ OBSAH:
     Kotvy min 2			-Done
 CSS:
     Triedy				-Done
-    identifikátory		-In progress
-    pseudotriedy			-In progress
+    identifikátory		-Done
+    pseudotriedy			-To do!!!!
     hromadná deklarácia		-Done
-    kontextová deklarácia	-To do!!!!
+    kontextová deklarácia	-Done
     Vzhľad odkazov podľa stavu-Done
     Format textu a farby	-Done
     Rámčeky				-Done
@@ -35,6 +35,6 @@ CSS:
     margin a padding		-Done
     z-index				-Done
     zaoblenie rohov		-Done
-    gradient			-To do!!!!			<<<< CSS tutorial
-    tien pri objekte 		-Done
+    gradient			-Done
+    tien pri objekte 		-To do!!!!			<<<< CSS tutorial
     tien pri texte		-To do!!!!			<<<< CSS tutorial
