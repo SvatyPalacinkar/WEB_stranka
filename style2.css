@@ -197,6 +197,12 @@ body main .lekcia .teoria .box_s_tienom {
   background: orange;
   box-shadow: 10px 10px blue;
 }
+body main .lekcia .teoria .box_s_tienom_rozmazane {
+  width: 200px;
+  height: 100px;
+  background: orange;
+  box-shadow: 10px 10px 20px blue;
+}
 body main .lekcia .teoria .vzor {
   background: lightgray;
   padding: 15px;
