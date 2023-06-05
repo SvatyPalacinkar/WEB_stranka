@@ -15,15 +15,15 @@ OBSAH:
 		popiskový	-Done
     tabuľku			-Done
     Obrázky:
-        2 s rámčekom		-To do!!!!			<<<< CSS tutorial
+        2 s rámčekom		-Done
         1 ako odkaz		-Done
-        1 ako pozadia		-To do!!!!			<<<< CSS tutorial
-    Odkaz na inú stránku	-To do!!!!			<<<< CSS tutorial
+        1 ako pozadia		-Done
+    Odkaz na inú stránku	-Done
     Kotvy min 2			-Done
 CSS:
     Triedy			-Done
     identifikátory		-Done
-    pseudotriedy		-To do!!!!
+    pseudotriedy		-Done
     hromadná deklarácia		-Done
     kontextová deklarácia	-Done
     Vzhľad odkazov podľa stavu-Done
