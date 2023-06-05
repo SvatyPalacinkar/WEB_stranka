@@ -216,9 +216,20 @@ body {
                 }
                 .google_link_obrazok {
                     display: block;
-                    width: 538px;
-                    height: 190px;
                     background-image: url("google.png");
+                    width: 538px;
+                    max-width: 538px;
+                    height: 190px;
+                    @media (min-width: 600px) {
+                        width: 538px;
+                        height: 190px;
+                    }
+                    @media (max-width: 599px) {
+                        background-image: url("google.png");
+                        background-size: 100% 100%;
+                        width: 300px;
+                        height: 105px;
+                    }
                 }
                 .div_png_border {
                     width: 200px;
