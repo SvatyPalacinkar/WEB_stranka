@@ -188,6 +188,15 @@ body main .lekcia .teoria table{
   left: 10%;
   width: 90%;
 }
+body main .lekcia .teoria table caption{
+  text-align: left;
+}
+body main .lekcia .teoria table thead {
+  font-weight: bold;
+}
+body main .lekcia .teoria table tbody tr:nth-child(odd){
+  background-color: lightgray;
+}
 body main .lekcia .teoria table tr td{
   text-align: center;
 }
