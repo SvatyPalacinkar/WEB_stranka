@@ -184,6 +184,13 @@ body main .lekcia dl dd {
     height: auto;
   }
 }
+body main .lekcia .teoria table{
+  left: 10%;
+  width: 90%;
+}
+body main .lekcia .teoria table tr td{
+  text-align: center;
+}
 body main .lekcia .teoria .gradient_linearny_spodok {
   width: 95%;
   height: 100px;
@@ -274,6 +281,12 @@ body main .lekcia .teoria .vzor .vnutorne_div {
   background: white;
   padding: 10px;
 }
+body main .lekcia .teoria .vzor #konzola {
+  border-left: solid rgb(9, 192, 52) 5px;
+  background: black;
+  color: white;
+  padding: 10px;
+}
 @media (min-width: 900px) {
   body main .lekcia .teoria .vzor .vnutorne_div {
     min-width: 400px;
@@ -354,14 +367,17 @@ body main .lekcia .teoria .vzor .vnutorne_div_s_zobrazenim .circle {
 body main .lekcia .teoria .vzor .vnutorne_div_s_zobrazenim .custom_odrazka {
   list-style-image: url("amogus.png");
 }
-body main .lekcia .hneda {
-  color: brown;
+body main .fialova {
+  color: rgb(170, 1, 170);
 }
 body main .lekcia .modra {
   color: mediumblue;
 }
 body main .lekcia .cervena {
-  color: red;
+  color: rgb(194, 45, 90);
+}
+body main .lekcia .zelena {
+  color: green;
 }
 body main .lekcia .ramcek {
   border: gray solid 1px;
@@ -395,23 +411,3 @@ body footer .rozdelovac .datum {
   grid-column: 3;
   text-align: center;
 }
-body .prerabka {
-  position: fixed;
-  top: 15%;
-  left: 0;
-  z-index: 5;
-  background-image: url("prerabka_rovno.png");
-  width: 100%;
-  height: 20%;
-}
-body .prerabka p {
-  position: absolute;
-  display: block;
-  left: 50%;
-  top: 50%;
-  padding: 15px 5px;
-  transform: translateX(-50%) translateY(-50%);
-  background-color: rgb(105, 105, 105);
-  font-size: 50px;
-  color: white;
-}/*# sourceMappingURL=style2.css.map */

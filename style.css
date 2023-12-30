@@ -164,12 +164,12 @@ body main #panel .priklad .vzor .code {
   padding: 15px;
   background: rgb(218, 218, 218);
 }
-body main .hneda {
-  color: brown;
+body main .fialova {
+  color: rgb(170, 1, 170);
 }
 body main .modra {
   color: mediumblue;
 }
 body main .cervena {
-  color: red;
-}/*# sourceMappingURL=style.css.map */
+  color: rgb(194, 45, 90);
+}

@@ -9,9 +9,6 @@
 </head>
 
 <body>
-    <div class="prerabka">
-        <p>Táto stránka sa prerába</p>
-    </div>
     <header>
         <div class="jazyky">
             <a href="index.html"><img src="home.png" width="22" height="22"></a>
@@ -33,6 +30,211 @@
             </tr>
         </table>
     </nav>
+    <main>
+        <h1 id="top">Nauč sa s nami programovať!</h1>
+        <div id="nula" class="lekcia">
+            <div class="teoria">
+                <br><br>
+                <h2 id="zaklad">Čo je Python</h2>
+                <ul>
+                    <li>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.</li>
+                    <li>It is used for:
+                        <ul>
+                            <li>web development (server-side)</li>
+                            <li>software development</li>
+                            <li>mathematics</li>
+                            <li>system scripting.</li>
+                        </ul>
+                    </li>
+                </ul>
+                <br>
+                <h2>What can Python do?</h2>
+                <ul>
+                    <li>Python can be used on a server to create web applications.</li>
+                    <li>Python can be used alongside software to create workflows.</li>
+                    <li>Python can connect to database systems. It can also read and modify files.</li>
+                    <li>Python can be used to handle big data and perform complex mathematics.</li>
+                    <li>Python can be used for rapid prototyping, or for production-ready software development.</li>
+                </ul>
+                <br>
+                <div class="vzor">
+                    <h3>Priklad</h3>
+                    <div class="vnutorne_div">
+                        <p class="code">
+                            <span class="modra">print</span>(<span class="fialova">"Hello world!"</span>)
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="vysvetlivka">
+                <h2>Vysvetlenie prikladu:</h2>
+                <dl>
+                    <dt><span class="zvyraznenie">&lt;!DOCTYPE html></span> </dt>
+                    <dd>deklarácia definuje ,že tento dokument je verzie HTML5</dd>
+                </dl>
+            </div>
+        </div>
+        <br><br>
+        <hr>
+        <br><br>
+        <div id="jedna" class="lekcia">
+            <div class="teoria">
+                <br><br>
+                <h2>Python Syntax</h2>
+                <h3>Execute Python Syntax</h3>
+                <ul>
+                    <li>Python syntax can be executed by writing directly in the Command Line:</li>
+                </ul>
+                <div class="vzor">
+                    <h3>Priklad</h3>
+                    <div class="vnutorne_div" id="konzola">
+                        <p class="code">
+                            &gt;&gt;&gt; print("Hello world!")<br>
+                            Hello world!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <hr>
+        <br><br>
+        <div id="dva" class="lekcia">
+            <div class="teoria">
+                <br><br>
+                <h2>Premenné v Pythone</h2>
+                <ul><li>Premenné slúžia na uloženie hodnoty</li></ul>
+                <h3>Vytváranie premnenných</h3>
+                <ul>
+                    <li>V Pythone nieje príkaz na vytvorenie premennej</li>
+                    <li>Premenná sa vytvorí v moment keď jej priradíme hodnotu</li>
+                </ul>
+                <br>
+                <div class="vzor">
+                    <h3>Priklad</h3>
+                    <div class="vnutorne_div">
+                        <p class="code">
+                            x = <span class="cervena">5</span><br>
+                            y = <span class="fialova">"Marek"</span>
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <ul>
+                    <li>Premenné nepotrebujú mať deklarovaný dátový typ, a ten sa môže aj zmeniť po ich vytvorení</li>
+                </ul>
+                <br>
+                <div class="vzor">
+                    <h3>priklad</h3>
+                    <div class="vnutorne_div">
+                        <p class="code">
+                            x = <span class="cervena">4</span> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span class="zelena">#&lt;= je dátový typ celé číslo</span><br>
+                            x = <span class="fialova">"Ahoj"</span> &emsp;<span class="zelena">#&lt;= je dátový typ reťazec</span>
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <h3>Pretypovanie</h3>
+                <ul>
+                    <li>Ak je to potrebné tak sa špecifikovať dátový typ premnennej, volá sa to typovanie a pretypovanie</li>
+                </ul>
+                <div class="vzor">
+                    <h3>priklad</h3>
+                    <div class="vnutorne_div">
+                        <p class="code">
+                            x = <span class="modra">str</span>(<span class="cervena">8</span>) &emsp;&emsp;<span class="zelena">#&lt;= je '8'</span><br>
+                            x = <span class="modra">int</span>(<span class="cervena">8</span>) &emsp;&emsp;<span class="zelena">#&lt;= je 8</span><br>
+                            x = <span class="modra">float</span>(<span class="cervena">8</span>) <span class="zelena">#&lt;= je 8.0</span>
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <h3>Citlivosť znakov</h3>
+                <ul>
+                    <li>Mená premenných rozoznávajú rozdiel medzi malími a veľkými písmenkami</li>
+                </ul>
+                <div class="vzor">
+                    <h3>priklad</h3>
+                    <div class="vnutorne_div">
+                        <p class="code">
+                            a = <span class="cervena">55</span><br>
+                            A = <span class="fialova">"text"</span><br>
+                            <span class="zelena">#A neprepíše a</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <hr>
+        <br><br>
+        <div id="tri" class="lekcia">
+            <di class="teoria">
+                <br><br>
+                <h2>Operátory v Pythone</h2>
+                <ul>
+                    <li>Python delí Operátory do týchto skupín:</li>
+                    <ul>
+                        <li>Aritmetické operátory</li>
+                        <li>Priraďovacie operátory</li>
+                        <li>Logické operátory</li>
+                        <li>Bitové operátory</li>
+                    </ul></br>
+                </ul>
+                <table>
+                    <tr>
+                        <td>Operator</td>
+                        <td>Meno</td>
+                        <td>Priklad</td>
+                        <td>Vysledok</td>
+                    </tr>
+                    <tr>
+                        <td>+</td>
+                        <td>Súčet</td>
+                        <td>10 + 5</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>-</td>
+                        <td>Rozdiel</td>
+                        <td>50 - 5</td>
+                        <td>45</td>
+                    </tr>
+                    <tr>
+                        <td>*</td>
+                        <td>Súčin</td>
+                        <td>5 * 5</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>/</td>
+                        <td>Podiel</td>
+                        <td>20 / 4</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>%</td>
+                        <td>Modulo</td>
+                        <td>24 / 5</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>**</td>
+                        <td>Mocnina</td>
+                        <td>2 ** 3</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>//</td>
+                        <td>Zaokrúhlené delenie</td>
+                        <td>15 // 2</td>
+                        <td>7</td>
+                    </tr>                
+                </table>
+            </div>
+        </div>
     <footer>
         <div class="rozdelovac">
             <div class="meno">Adam Valluš</div>
@@ -43,3 +245,11 @@
 </body>
 
 </html>
+<!--
+    <div class="vzor">
+        <h3>priklad</h3>
+        <div class="vnutorne_div">
+            <p class="code"></p>
+        </div>
+    </div>
+-->
